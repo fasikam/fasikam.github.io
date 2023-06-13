@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasika</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0cba9627ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--header-->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/LogoSample_ByTailorBrands-removebg-preview (1) (1).png" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1><span>Fasika Mulugeta</span></h1>
+            <p>I am a Web Developer</p>
+
+        </div>
+
+    </div>
+
+</div>    
+
+<!--about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/profile1.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p>I'm a passionate and dedicated MERN-stack web developer and also a third year software engineering student based in Addis Ababa,Ethiopia.
+                     I have a good knowledge of web programming , with expertise in front-end technologies like HTML, CSS, JavaScript, & React.js, as well as back-end technologies such as Node.js, Express.js, and MySQL.
+                      I specialize in building dynamic and user-friendly web applications,
+                     from e-commerce platforms to custom web applications.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>2021-Present</span><br>Studying Software Engineering at ASTU</li>
+                        <li><span>2022-2023</span><br>MERN-stack Bootcamp</li>
+                        <li><span>2016-2020</span><br>High school & Preparatory</li> 
+                    </ul>
+                </div> 
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Apr,2023-Present</span><br>Inter MERN-stack Developer</li>
+                        <li><span>Apr,2023-Present</span><br>Freelancer</li>
+                    </ul>
+                </div> 
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>UI Design</span><br>Designing awesome user interfaces</li>
+                        <li><span>Web Development</span><br>Developing webs using recent and modern ReactJS and NodeJS</li> 
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--service begins here-->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">What I DO</h1>
+        <div class="service-List">
+            <div>   
+              <i class="fas fa-crop-alt"></i>
+              <h2>UI Design</h2>
+              <p>I do UI design that helps the website to get a good look.</p>
+              <a href="">Learn More</a>    
+            </div>
+            <div>  
+                <i class="fas fa-code"></i>   
+                <h2>Web Development</h2>
+                <p>I develop something that's closer to the desired product refering
+                    similar previous projects with additional awesome features.</p>
+                <a href="">Learn More</a>     
+
+            </div>
+            <div>  
+                <i class="fab fa-app-store"></i>
+                <h2>Fully Responsive</h2>
+                <p>I design my website by making sure it looks great on every device.</p>
+                <a href="">Learn More</a>     
+            </div>  
+        </div>
+    </div>
+
+</div>        
+
+<!--portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="project-list">
+            <div class="project1">
+                <img src="images/WhatsApp Image 4.jpg" alt="">
+                <div class="layer">
+                    <h3></h3>
+                    <a href="https://netflix-clone-25307.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project1">
+                <img src="images/WhatsApp Image 2.jpg" alt="">
+                <div class="layer">
+                    <h3></h3>
+                    <a href="https://replica-d8934.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project1">
+                <img src="images/photo_2023-05-29_14-48-06.jpg" alt="">
+                <div class="layer">
+                    <h3></h3>
+                    <a href="https://frontend-forum.pages.dev/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+<!--contact session-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact1">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-envelope"></i>fasikall2442@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+251991179326</p>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/fasika-mulugeta-35bb3927a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/fasikam"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://t.me/Ato_Fasika"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.facebook.com/fasika.mulugeta.397"><i class="fa-brands fa-facebook"></i></a>
+
+                </div>
+                <!--<a href="" class="Button0">Download CV</a>-->
+            </div>
+            <div class="contact2">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Email Address" required>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="submit" class="Button0">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxjAdegHeXKRjPRPGi8aybf00udzU6ZqkZabSTK0qImgmFLehTsv3N_O11O9z326ksh/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+
+</body>
+</html>
