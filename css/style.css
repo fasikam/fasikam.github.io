@@ -17,7 +17,7 @@ body{
     height: 100vh;
     background-image: url(../images/final\ image.jpg);
     background-size: cover;
- /*   background-position: center;*/
+    background-position: center;
     
 }
 .container{
@@ -368,7 +368,7 @@ nav .fas{
 }
  @media only screen and (max-width: 600px){
     #header{
-       /* background-image: url(../images/lee-campbell-DtDlVpy-vvQ-unsplash.jpg);*/
+       background-image: url(../images/ffff.jpg);
     }
     .header-text{
         margin-top: 20%;
